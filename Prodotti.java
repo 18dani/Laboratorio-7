@@ -1,7 +1,21 @@
 public class Prodotti
 {
-  private String Nome;
-  private double Prezzo;
+
+  public Prodotto()
+  {
+    private String Nome;
+    private double Prezzo;
+  }
+
+  public void setName(String Nome)
+  {
+    this.Nome = Nome;
+  }
+
+  public void setPrice(double Prezzo)
+  {
+    this.Prezzo = Prezzo;
+  }
 
   public String getName()
   {
